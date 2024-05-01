@@ -23,7 +23,7 @@ The project contains Python scripts implementing the Implicit Euler, Runge-Kutta
 
 ## Dependencies
 
-- Python 3
+- Python version 3.12.2
 - NumPy and Matplotlib libraries
 
 ## How to Execute
