@@ -13,7 +13,11 @@ The project contains Python scripts implementing the Implicit Euler, Runge-Kutta
 
 ## Collaborators
 
-- [Your Name]
+- #Fares Al-Huri - Student, Hannover University of Applied Sciences and Arts
+
+- #Galal Al-habbari - Student, Hannover University of Applied Sciences and Arts
+
+- #M.Eng. Mohammed Beyki - Supervisor, Hannover University of Applied Sciences and Arts
 
 ## Dependencies
 
