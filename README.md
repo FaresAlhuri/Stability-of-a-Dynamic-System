@@ -1,9 +1,11 @@
-### Stability-of-a-Dynamic-System
-A lab experiment; Stability Analysis of a mathematical Dynamic System using Numerical Integration Methods (i.e. Euler and Runge-Kutta-4 methods)
+
+
 
 # Stability Analysis of Dynamic Systems using Numerical Integration Methods
 
 ## Overview
+
+A lab experiment; Stability Analysis of a mathematical Dynamic System using Numerical Integration Methods (i.e. Euler and Runge-Kutta-4 methods).
 
 This project aims to demonstrate the effectiveness of different numerical integration methods in solving dynamic differential equations. By comparing the results obtained from the Implicit Euler and Runge-Kutta 4 methods with those from the Explicit Euler method, the project highlights how stability and accuracy can vary. Ultimately, the goal is to showcase how the Implicit Euler and Runge-Kutta 4 methods offer superior performance, with the latter achieving a remarkable 90% similarity to the exact solution of the system's function.
 
