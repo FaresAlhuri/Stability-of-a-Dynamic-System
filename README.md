@@ -52,10 +52,12 @@ To show the graph for the Runge-Kutta 4 method:
 - In the Python script, locate the function `aufgabe1()`.
 - Within this function, there is a loop over `h_values`, which represents different step sizes.
 - Uncomment the line `t, y = solve(0, 20*np.pi, np.array([0, 1]), h, rk4)` to use the Runge-Kutta 4 method.
-- Run the Python script. It will display a graph showing the solution obtained using the Runge-Kutta 4 method.
+- It will display a graph (Figure bleow) showing the more precise solution obtiained:
+- ![image](https://github.com/ImCavaliere/Stability-of-a-Dynamic-System/assets/92309733/1b4d57d1-476b-40f9-8c01-b663b869c249)
+
 
   The following figure shows the error order when setting the minimal and maximal step sizes on the `rk4` method as 0.01 and 0.1 respectively:
-  ![image](https://github.com/ImCavaliere/Stability-of-a-Dynamic-System/assets/92309733/b77e5f42-6994-4833-81c1-2d5f8aeef6f9)
+  
  
 
 ### Analyzing Different Scenarios
