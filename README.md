@@ -57,6 +57,8 @@ To show the graph for the Runge-Kutta 4 method:
 
 
   The following figure shows the error order when setting the minimal and maximal step sizes on the `rk4` method as 0.01 and 0.1 respectively:
+
+  
   ![image](https://github.com/ImCavaliere/Stability-of-a-Dynamic-System/assets/92309733/257948c0-df90-47a8-aadd-ca74bb3dd385)
 
   
