@@ -1,7 +1,7 @@
 
 
 
-# Stability Analysis of Dynamic Systems using Numerical Integration Methods
+# Stability Analysis of a Dynamic System
 
 ## Overview
 
