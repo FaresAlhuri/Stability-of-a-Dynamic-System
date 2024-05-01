@@ -32,15 +32,31 @@ The project contains Python scripts implementing the Implicit Euler, Runge-Kutta
 To execute the project:
 
 1. Clone the repository to your local machine.
-2. Install the necessary dependencies (Python, NumPy, Matplotlib).
-3. Run the Python scripts using a Python interpreter.
+2. Install the necessary dependencies (Python 3, NumPy, Matplotlib).
+3. Open the Python script in a text editor or an integrated development environment (IDE).
 
-## Demo and Analysis of Other Scenarios
+### Showing Different Graphs
 
-The project includes two main tasks:
+#### Implicit Euler Method
+To show the graph for the Implicit Euler method:
+- In the Python script, locate the function `aufgabe1()`.
+- Within this function, there is a loop over `h_values`, which represents different step sizes.
+- Uncomment the line `t, y = solve(0, 20*np.pi, np.array([0, 1]), h, euler_implicit)` to use the Implicit Euler method.
+- Run the Python script. It will display a graph showing the solution obtained using the Implicit Euler method.
 
-1. Task 1: Solving the differential equation and plotting the result.
-2. Task 2: Calculating error order against different step sizes and plotting the result.
+#### Runge-Kutta 4 Method
+To show the graph for the Runge-Kutta 4 method:
+- In the Python script, locate the function `aufgabe1()`.
+- Within this function, there is a loop over `h_values`, which represents different step sizes.
+- Uncomment the line `t, y = solve(0, 20*np.pi, np.array([0, 1]), h, rk4)` to use the Runge-Kutta 4 method.
+- Run the Python script. It will display a graph showing the solution obtained using the Runge-Kutta 4 method.
+
+### Analyzing Different Scenarios
+
+To analyze different scenarios, you can modify the parameters passed to the `solve()` function within the `aufgabe1()` function. Specifically, you can adjust the initial time, final time, initial state vector, and step size. Similarly, you can modify the parameters passed to the `error_order()` function within the `aufgabe2()` function to change the range of step sizes for error analysis.
+
+By adjusting these parameters, you can explore various scenarios and analyze the behavior of the system under different conditions.
+
 
 You can execute each task by calling the corresponding function in the Python script.
 
