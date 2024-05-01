@@ -42,6 +42,8 @@ To show the graph for the Implicit Euler method:
 - Within this function, there is a loop over `h_values`, which represents different step sizes.
 - Uncomment the line `t, y = solve(0, 20*np.pi, np.array([0, 1]), h, euler_implicit)` to use the Implicit Euler method.
 - Run the Python script. It will display a graph showing the solution obtained using the Implicit Euler method.
+  ![image](https://github.com/ImCavaliere/Stability-of-a-Dynamic-System/assets/92309733/a817baa3-fed9-4e12-8ff9-7ddd152bba90)
+
 
 #### Runge-Kutta 4 Method
 To show the graph for the Runge-Kutta 4 method:
